@@ -1,0 +1,55 @@
+<configs>
+<set xpath="/traders[@buy_markup='2']/@buy_markup">5</set> <!-- Наценка купить(Buy markup) -->
+<set xpath="/traders[@sell_markdown='0.2']/@sell_markdown">0.1</set> <!-- Наценка продать(sell_markdown) -->
+
+<!-- ========================================================================================================== -->
+<!-- === Настройка торговца Trader Joel (Trader Joel settings) === -->
+<setattribute xpath="/traders/trader_info[@id='1']" name="reset_interval">3</setattribute> <!--  Обновление товара в игровых днях (Product update in game daysy) --> 
+<setattribute xpath="/traders/trader_info[@id='1']" name="full_reset">true</setattribute> <!-- Полный сброс товаров (full reset) -->
+<setattribute xpath="/traders/trader_info[@id='1']" name="min_inventory">30</setattribute> <!-- Минимальное количество предметов (Minimum number of items) -->
+<setattribute xpath="/traders/trader_info[@id='1']" name="max_inventory">70</setattribute> <!-- Максимальное количество предметов (Maximum number of items) -->
+<setattribute xpath="/traders/trader_info[@id='1']" name="min_items_swapped">20</setattribute> <!-- Минимальное количество замененных предметов (Min items swapped) -->
+<setattribute xpath="/traders/trader_info[@id='1']" name="max_items_swapped">20</setattribute> <!-- Максимальное количество замененных предметов (Max items swapped) -->
+<setattribute xpath="/traders/trader_info[@id='1']" name="open_time">6:05</setattribute> <!-- Время открытия торговца (Trader opening time) -->
+<setattribute xpath="/traders/trader_info[@id='1']" name="close_time">21:50</setattribute> <!-- Время закрытие торговца (Trader closing time) -->
+<!-- ========================================================================================================== -->
+<!-- === Настройка торговца Trader Rekt (Trader Rekt settings) === -->
+<setattribute xpath="/traders/trader_info[@id='8']" name="reset_interval">3</setattribute> <!--  Обновление товара в игровых днях (Product update in game daysy) --> 
+<setattribute xpath="/traders/trader_info[@id='8']" name="full_reset">true</setattribute> <!-- Полный сброс товаров (full reset) -->
+<setattribute xpath="/traders/trader_info[@id='8']" name="min_inventory">30</setattribute> <!-- Минимальное количество предметов (Minimum number of items) -->
+<setattribute xpath="/traders/trader_info[@id='8']" name="max_inventory">70</setattribute> <!-- Максимальное количество предметов (Maximum number of items) -->
+<setattribute xpath="/traders/trader_info[@id='8']" name="min_items_swapped">20</setattribute> <!-- Минимальное количество замененных предметов (Min items swapped) -->
+<setattribute xpath="/traders/trader_info[@id='8']" name="max_items_swapped">20</setattribute> <!-- Максимальное количество замененных предметов (Max items swapped) -->
+<setattribute xpath="/traders/trader_info[@id='8']" name="open_time">6:05</setattribute> <!-- Время открытия торговца (Trader opening time) -->
+<setattribute xpath="/traders/trader_info[@id='8']" name="close_time">21:50</setattribute> <!-- Время закрытие торговца (Trader closing time) -->
+<!-- ========================================================================================================== -->
+<!-- === Настройка торговца Trader Hugh (Trader Hugh settings) === -->
+<setattribute xpath="/traders/trader_info[@id='7']" name="reset_interval">3</setattribute> <!--  Обновление товара в игровых днях (Product update in game daysy) --> 
+<setattribute xpath="/traders/trader_info[@id='7']" name="full_reset">true</setattribute> <!-- Полный сброс товаров (full reset) -->
+<setattribute xpath="/traders/trader_info[@id='7']" name="min_inventory">30</setattribute> <!-- Минимальное количество предметов (Minimum number of items) -->
+<setattribute xpath="/traders/trader_info[@id='7']" name="max_inventory">70</setattribute> <!-- Максимальное количество предметов (Maximum number of items) -->
+<setattribute xpath="/traders/trader_info[@id='7']" name="min_items_swapped">20</setattribute> <!-- Минимальное количество замененных предметов (Min items swapped) -->
+<setattribute xpath="/traders/trader_info[@id='7']" name="max_items_swapped">20</setattribute> <!-- Максимальное количество замененных предметов (Max items swapped) -->
+<setattribute xpath="/traders/trader_info[@id='7']" name="open_time">6:05</setattribute> <!-- Время открытия торговца (Trader opening time) -->
+<setattribute xpath="/traders/trader_info[@id='7']" name="close_time">21:50</setattribute> <!-- Время закрытие торговца (Trader closing time) -->
+<!-- ========================================================================================================== -->
+<!-- === Настройка торговца Trader Jen (Trader Jen settings) === -->
+<setattribute xpath="/traders/trader_info[@id='2']" name="reset_interval">3</setattribute> <!--  Обновление товара в игровых днях (Product update in game daysy) --> 
+<setattribute xpath="/traders/trader_info[@id='2']" name="full_reset">true</setattribute> <!-- Полный сброс товаров (full reset) -->
+<setattribute xpath="/traders/trader_info[@id='2']" name="min_inventory">30</setattribute> <!-- Минимальное количество предметов (Minimum number of items) -->
+<setattribute xpath="/traders/trader_info[@id='2']" name="max_inventory">70</setattribute> <!-- Максимальное количество предметов (Maximum number of items) -->
+<setattribute xpath="/traders/trader_info[@id='2']" name="min_items_swapped">20</setattribute> <!-- Минимальное количество замененных предметов (Min items swapped) -->
+<setattribute xpath="/traders/trader_info[@id='2']" name="max_items_swapped">20</setattribute> <!-- Максимальное количество замененных предметов (Max items swapped) -->
+<setattribute xpath="/traders/trader_info[@id='2']" name="open_time">6:05</setattribute> <!-- Время открытия торговца (Trader opening time) -->
+<setattribute xpath="/traders/trader_info[@id='2']" name="close_time">21:50</setattribute> <!-- Время закрытие торговца (Trader closing time) -->
+<!-- ========================================================================================================== -->
+<!-- === Настройка торговца Trader Bob (Trader Bob settings) === -->
+<setattribute xpath="/traders/trader_info[@id='6']" name="reset_interval">3</setattribute> <!--  Обновление товара в игровых днях (Product update in game daysy) --> 
+<setattribute xpath="/traders/trader_info[@id='6']" name="full_reset">true</setattribute> <!-- Полный сброс товаров (full reset) -->
+<setattribute xpath="/traders/trader_info[@id='6']" name="min_inventory">30</setattribute> <!-- Минимальное количество предметов (Minimum number of items) -->
+<setattribute xpath="/traders/trader_info[@id='6']" name="max_inventory">70</setattribute> <!-- Максимальное количество предметов (Maximum number of items) -->
+<setattribute xpath="/traders/trader_info[@id='6']" name="min_items_swapped">20</setattribute> <!-- Минимальное количество замененных предметов (Min items swapped) -->
+<setattribute xpath="/traders/trader_info[@id='6']" name="max_items_swapped">20</setattribute> <!-- Максимальное количество замененных предметов (Max items swapped) -->
+<setattribute xpath="/traders/trader_info[@id='6']" name="open_time">6:05</setattribute> <!-- Время открытия торговца (Trader opening time) -->
+<setattribute xpath="/traders/trader_info[@id='6']" name="close_time">21:50</setattribute> <!-- Время закрытие торговца (Trader closing time) -->
+ </configs>
